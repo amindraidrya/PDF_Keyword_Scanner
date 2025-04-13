@@ -6,8 +6,8 @@ from multiprocessing import cpu_count
 from collections import deque
 
 # --- CONFIGURATION ---
-FOLDER_PATH = r'C:\Users\HP\OneDrive\Bureau\leaked data'
-SEARCH_TERM = "bennani".lower()
+FOLDER_PATH = r'C:\Users\' # Enter root to your folder 
+SEARCH_TERM = "search term".lower() #Enter the keyword you are looking for
 OUTPUT_FILE = "matching_pdfs.txt"
 LOG_FILE = "scan_errors.log"
 MAX_WORKERS = min(8, cpu_count()) 
