@@ -6,8 +6,8 @@ from multiprocessing import cpu_count
 from collections import deque
 
 # --- CONFIGURATION ---
-FOLDER_PATH = r'C:\Users\' # Enter root to your folder 
-SEARCH_TERM = "search term".lower() #Enter the keyword you are looking for
+FOLDER_PATH = r'C:\path\to\your\pdf\directory'
+SEARCH_TERM = "your_keyword".lower()
 OUTPUT_FILE = "matching_pdfs.txt"
 LOG_FILE = "scan_errors.log"
 MAX_WORKERS = min(8, cpu_count()) 
